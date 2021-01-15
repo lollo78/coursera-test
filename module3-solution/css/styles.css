@@ -1,0 +1,75 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: 'Sniglet', cursive;
+}
+
+#header-nav {
+	background-color: darkgrey;
+	border-color: black;
+	border-radius: 0;
+	border-width: 2px;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+}
+
+.navbar-brand h1 {
+	font-weight: bold;
+	font-size: 2em;
+	color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+div #chicken, #beef, #sushi {
+    background-color: darkgrey;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+}
+
+p {
+    padding: 15px;
+}
+
+/* Mobile Phone */
+@media (max-width: 767px) {
+	.backtotop {
+		margin-top: 10px;
+	}
+	a:hover {
+		text-decoration: none;
+	 	color: white;
+	}
+
+	.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+		border: 2px solid black;
+		background: darkgrey;
+	}
+
+	.navbar-header button.navbar-toggle:hover, .navbar-header .icon-bar{
+		background: white;
+	}
+
+	#collapsable-nav {
+		text-align: center;
+    	font-size: 1.2em;
+    	background-color: white;
+	}
+	#nav-list a:hover {
+		background: lightgrey;
+	}
+}
